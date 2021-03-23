@@ -1,7 +1,6 @@
 # x728-ups-auto-shutdown
 
-The ups.py script allow the [Raspberry Pi X728 UPS](https://geekworm.com/products/raspberry-pi-x728-max-5-1v-8a-18650-ups-power-management-board)
-X728 V1.3 UPS hat to auto shutdown (ASD) your raspbery pi.
+The ups.py script allow the [Raspberry Pi X728 UPS](https://geekworm.com/products/raspberry-pi-x728-max-5-1v-8a-18650-ups-power-management-board) to auto shutdown (ASD) your raspbery pi.
 
 This project can provide these features:
 - Listen to the change of power supply event (Power supply lost or Power supply recovered)
