@@ -1,6 +1,6 @@
-# x728-v3-ups-auto-shutdown
+# x728-ups-auto-shutdown
 
-The ups.py script allos the X728-v3 UPS hat to auto shutdown (ASD) your raspbery pi.
+The ups.py script allos the X728 V1.3 UPS hat to auto shutdown (ASD) your raspbery pi.
 
 This project can provide these features:
 - Listen to the change of power supply event (Power supply lost or Power supply recovered)
