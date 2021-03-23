@@ -32,6 +32,7 @@ crontab - e
 @reboot python3 /opt/ups.py
 ```
 5. Reboot your PI
+
 You can check the log in /var/log/syslog file for app started, app error, power supply event change, etc.
 You can keep plugin and eject the power supply cable connected to the UPS, and you can find how robust the program is ~.
 
