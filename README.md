@@ -29,7 +29,7 @@ sudo chmod +x /opt/ups.py
 sudo su
 crontab - e
 # Add the following line to the crontab
-@reboot python3 /opt/misc/ups.py
+@reboot python3 /opt/ups.py
 ```
 5. Reboot your PI
 You can check the log in /var/log/syslog file for app started, app error, power supply event change, etc.
