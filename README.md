@@ -34,6 +34,7 @@ crontab - e
 5. Reboot your PI
 
 You can check the log in /var/log/syslog file for app started, app error, power supply event change, etc.
-You can keep plugin and eject the power supply cable connected to the UPS, and you can find how robust the program is ~.
+
+You can test the program by keeping plugin and eject the power supply cable connected to the UPS, and you can find how robust the program is ~.
 
 This is based on the sample script in https://github.com/geekworm-com/x728
