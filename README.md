@@ -10,7 +10,7 @@ This project can provide these features:
 - Put the log to /var/log/syslog
 
 ## Setup
-1. Enable RTC and ic2 accoeding to official guide
+1. Install Python3, enable RTC and ic2 accoeding to official guide
 ```
 # Install Python 3 and dependencies
 sudo apt install python3-pip
