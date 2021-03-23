@@ -12,6 +12,11 @@ This project can provide these features:
 ## Setup
 1. Enable RTC and ic2 accoeding to official guide
 ```
+# Install Python 3 and dependencies
+sudo apt install python3-pip
+sudo apt-get -y install python3-rpi.gpio
+sudo pip install smbus
+
 #X728 RTC setting up
 sudo sed -i '$ i rtc-ds1307' /etc/modules
 sudo sed -i '$ i echo ds1307 0x68 > /sys/class/i2c-adapter/i2c-1/new_device' /etc/rc.local
