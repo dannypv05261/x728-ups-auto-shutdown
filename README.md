@@ -5,9 +5,9 @@ The ups.py script allow the [X728 UPS hat](https://geekworm.com/products/raspber
 This project can provide these features:
 - Listen to the change of power supply event (Power supply lost or Power supply recovered)
 - Detect power supply failure also when the PI starts
-- Keep checking the power left every 60 seconds (configurable) ONLY when power supply lost and shutdown eventually when the batteries have 10% power left (configurable).
-- Stop power left checking loop gracefully after the power supply recovers
-- Put the log to /var/log/syslog
+- Enable power left checking loop ONLY when power supply lost and shutdown eventually when the batteries have 10% power left (configurable).
+- Disable power left checking loop gracefully after the power supply recovers to save processing power
+- Put the log to /var/log/syslog for UPS status change tracing
 
 ## Setup
 1. Install Python3, enable RTC and ic2 accoeding to [official guidelines](https://github.com/geekworm-com/x728/blob/master/x728.sh)
