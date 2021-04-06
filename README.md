@@ -16,7 +16,7 @@ This project can provide these features:
 # Install Python 3 and dependencies
 sudo apt install python3-pip
 sudo apt-get -y install python3-rpi.gpio
-sudo pip install smbus
+sudo pip3 install -r requirements.txt
 
 #X728 RTC setting up
 sudo sed -i '$ i rtc-ds1307' /etc/modules
