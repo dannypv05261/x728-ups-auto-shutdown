@@ -66,7 +66,7 @@ try:
         except Exception as e:
             logging.error('Error at %s', 'division', exc_info=e)
 
-    def my_callback(channel):
+    def power_change_callback(channel):
         global process
         global POWER_DETECTION_GPIO_PIN
         global lock
@@ -103,12 +103,12 @@ try:
             logging.error('Error at %s', 'division', exc_info=e)
             kill()
 
-    GPIO.add_event_detect(POWER_DETECTION_GPIO_PIN, GPIO.BOTH, callback=my_callback)
+    GPIO.add_event_detect(POWER_DETECTION_GPIO_PIN, GPIO.BOTH, callback=power_change_callback)
 
-    log.info("Power failture detection started")
+    log.info("Power failure detection started")
     # first check, since there is no event trigger
     if read_capacity(bus) < POWEROFF_PRECENT_THRESHOLD:
-        my_callback(POWER_DETECTION_GPIO_PIN)
+        power_change_callback(POWER_DETECTION_GPIO_PIN)
     threading.Event().wait()
 except Exception as e:
     logging.error('Error at %s', 'division', exc_info=e)
