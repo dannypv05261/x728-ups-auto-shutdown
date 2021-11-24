@@ -10,7 +10,7 @@ This project can provide these features:
 - Put the log to /var/log/syslog for UPS status change tracing
 
 ## Setup
-1. Install Python3, enable RTC and ic2 accoeding to [official guidelines](https://github.com/geekworm-com/x728/blob/master/x728.sh)
+1. Install Python3, enable RTC and ic2 according to [official guidelines](https://github.com/geekworm-com/x728/blob/master/x728.sh)
 
 ```
 # Install Python 3 and dependencies
