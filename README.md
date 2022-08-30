@@ -42,4 +42,4 @@ You can check the log in /var/log/syslog file for app started, app error, power 
 
 You can test the program by keeping plugin and eject the power supply cable connected to the UPS, and you can find how robust the program is ~.
 
-This is based on the sample script in [official guidelines](https://github.com/geekworm-com/x728/blob/master/x728.sh)
+This is based on the sample script in [official guidelines](https://github.com/geekworm-com/x728)
